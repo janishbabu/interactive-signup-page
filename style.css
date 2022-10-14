@@ -1,0 +1,135 @@
+.btn-color{
+  background-color: #0e1c36;
+  color: #fff;
+  
+}
+
+.profile-image-pic{
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+
+
+
+.cardbody-color{
+  background-color: #ebf2fa;
+}
+#eye{
+color:green;
+position: relative;
+left: -26px;
+bottom: 11px;
+}
+#close_eye{
+color:green;
+position: relative;
+left:-33px;;
+bottom: 11px;
+}
+a{
+  text-decoration: none;
+}
+#button{
+background-color: #0087ff;
+color: black;
+position: relative;
+bottom: -42px;
+}
+#female{
+
+position: relative;
+left: -197px;
+bottom: 11px;
+}
+#female1{
+position: relative;
+left: -196px;
+bottom: 11px;
+}
+#other{
+position: relative;
+left: -183px;
+bottom: 11px;
+}
+#other1{
+position: relative;
+left: -183px;
+bottom: 11px;
+}
+#male{
+position:relative;
+bottom: 11px;
+}
+#male1{
+position:relative;
+bottom: 11px;}
+#name1{
+position: relative;
+bottom: 16px;
+}
+#email1{
+position: relative;
+bottom: 16px;
+}
+#address1{
+position: relative;
+bottom: 16px;
+}
+#dob1{
+position: relative;
+bottom: 16px;
+}
+#age1{
+position: relative;
+bottom: 16px;
+}
+#gender{
+position: relative;
+bottom: 16px;
+}
+#password1{
+position: relative;
+bottom: 16px;
+}
+#confirm_password{
+position: relative;
+top: 34px;}
+#confirm_password1{
+position: relative;
+top: 20px;
+}
+
+#xmark{
+position:relative;
+color:red;
+top: 466px;
+left: 87px;
+}
+#alert{
+position: relative;
+top: 442px;
+left: -2px;
+font-size: 13px;
+color: red;
+
+}
+#alert2{
+color: red;
+
+}
+#alert3{
+color:red;
+}
+#alert4{
+color:red;
+position: absolute;
+bottom: 138px;
+}
+#alert5{
+color:red;
+}
+.fromshot{
+position:relative;
+bottom:100px;
+}

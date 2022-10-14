@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive Signup Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+<h1  class="text-center text-dark mt-5;text-align:center;color:black;font-family:serif;" ><u>SIGNUP</u>
+</h1>
+<center>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <div class="card my-5">
+
+
+<form method="get" style="" id="form" class="card-body cardbody-color p-lg-5">
+
+    <table id="tabel">
+            <div>
+                <tr>
+
+                    <th id="name1"><b>Name</b></th>
+                    <td><input type="text" placeholder="Enter Your Name " class="form-control" id="name" minlength="" required ><span id="alert2">name is invalid</span></td>
+
+                </tr>
+
+            <tr>
+                <th><label id="email1"><b>Email</b></label></th>
+
+                <td><input type="text" placeholder="Enter your email" class="form-control" id="email" required><span id="alert3">email invalid</span><br></td>
+            </tr>
+            <tr>
+                <th id="address1"><b>Address</b></th>
+
+                <td><textarea placeholder="Enter Your Address" class="form-control" id="address" required></textarea><br></td>
+            </tr>
+            <tr>
+                <th id="dob1"><label><b>DOB</b></label></th>
+
+                <td><input type="date" class="form-control" id="dob" required max=""><br></td>
+            </tr>
+            <tr>
+                <th id="age1"><label><b>Age</b></label></th>
+                <td><input  class="form-control" id="age" readonly value=""><br></td>
+
+            </tr>
+            <tr>
+                <th id="gender"><label><b>Gender</b></label></th>
+                <td><input type="radio" name="gender" class="form-check-input" required id="male">
+                <label class="form-check-label" id="male1">Male</label></td>
+                <td><input type="radio" name="gender" class="form-check-input"id="female"></td>
+                <td><label class="form-check-label"id="female1">Female</label></td>
+                <td><input type="radio" name="gender" class="form-check-input"id="other"></td>
+                <td><label class="form-check-label" id="other1">Other</label><br></td>
+                </tr>
+            <tr>
+                <th id="password1"><label><b>Password</b></label></th>
+                <span id="alert">At least one number,one uppercase,lowercase,<br>
+                    special characters,at least 8 characters</span>
+                <th><input type="password" placeholder="Enter your password"class="form-control" id="password" required ><br></th>
+
+                <th id="eye"><i class="fa-sharp fa-solid fa-eye"></i></th>
+                <th id="close_eye"><i class="fa-solid fa-eye-slash"></i></th>
+
+
+
+            </tr>
+            <tr>
+                <th id="confirm_password1"><label><b>Confirm password</b></label></th>
+                <td> <input type="password"  placeholder="Enter confirm password" class="form-control" id="confirm_password"  onpaste="return false" required><br><br><span id="alert4">password dissamatch<br></span><br></td>
+
+
+
+            </tr>
+            </div>
+
+        </table>
+    <a href="link.html"><button class="btn btn-color px-5 mb-5 w-100" type="submit" id="button">signup</button></a>
+
+</form>
+            </div>
+        </div>
+        </div>
+    </div>
+</center>
+</body>
+
+<script src="jquery.js"></script>
+<script src="validation.js"></script>
+</html>
+
+
